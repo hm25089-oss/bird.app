@@ -1,0 +1,38 @@
+{
+  "classes": [
+    "까치",
+    "멧비둘기",
+    "물까치",
+    "배경소리",
+    "뻐꾸기",
+    "참새",
+    "큰부리까마귀+송장까마귀"
+  ],
+  "sample_counts": {
+    "큰부리까마귀+송장까마귀": 16,
+    "참새": 5,
+    "뻐꾸기": 5,
+    "배경소리": 62,
+    "물까치": 5,
+    "멧비둘기": 5,
+    "까치": 6
+  },
+  "training_accuracy": 1.0,
+  "training_loss": 0.0013641004916280508,
+  "epochs": 50,
+  "batch_size": 4,
+  "sample_rate": 44100,
+  "n_mfcc": 40,
+  "failed_files": [
+    "배경소리/맹꽁이1.mp3: "
+  ],
+  "package_versions": {
+    "streamlit": "1.65.0",
+    "tensorflow": "2.21.0",
+    "librosa": "0.11.0",
+    "soundfile": "0.14.0",
+    "scikit-learn": "1.7.2",
+    "joblib": "1.6.0",
+    "numpy": "2.2.6"
+  }
+}
